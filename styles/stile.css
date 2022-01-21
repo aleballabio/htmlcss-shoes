@@ -23,27 +23,33 @@ body div img {
     transform: translate(-50%, -50%);
 }
 
-.button {
-    color: black;
+ul {
+    list-style: none;
+    line-height: 1rem;
+}
+
+ul > li {
     font-family: 'Rubik Mono One', sans-serif;
+    display: inline-block;
+    color: black;
+    line-height: 1rem;
     font-size: 1.0rem;
     background-color: white;
     border: 1px white;
     border-width: 1px;
     border-radius: 100%;
-    width: 2.5rem;
-    height: 2.5rem;
-    padding: 0;
+    padding: 1rem;
     position: fixed;
     top: 2%;
     right: 8%;
 }
 
-.button.to-second {
+
+.to-second {
     right: calc(8% - 4em)
 }
 
-.button.to-third {
+.to-third {
     right: calc(8% - 8em);
 }
 
