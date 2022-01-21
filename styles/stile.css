@@ -38,3 +38,47 @@ body div img {
 .first-pair {
     background-color: rgba(255,0,0,255);
 }
+
+.textmodel.first {
+    font-size: 3rem;
+    color: rgba(255,255,0,255);
+    position: absolute;
+    width: 45%;
+    top: 82%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+/* First Pair  */
+
+.second-pair {
+    background-color: rgba(0,128,0,255);
+}
+
+.textmodel.second {
+    font-size: 3rem;
+    color: rgba(255,255,0,255);
+    position: absolute;
+    width: 45%;
+    top: 82%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+/* First Pair  */
+
+.third-pair {
+    background-color: rgba(255,255,0,255);
+}
+
+.textmodel.third {
+    font-size: 3rem;
+    color: rgba(0,128,0,255);
+    position: absolute;
+    width: 45%;
+    top: 82%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
