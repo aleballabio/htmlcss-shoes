@@ -11,8 +11,30 @@ html {
 body > div {
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
-.first-pairs {
-    background-color: ;
+
+body div img {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textmodel {
+    font-size: 3rem;
+    color: rgba(255,255,0,255);
+    position: absolute;
+    width: 45%;
+    top: 82%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+/* First Pair  */
+
+.first-pair {
+    background-color: rgba(255,0,0,255);
 }
