@@ -11,6 +11,7 @@ html {
 body > div {
     width: 100%;
     height: 100vh;
+    min-width: 800px;
     position: relative;
 }
 
@@ -22,16 +23,30 @@ body div img {
     transform: translate(-50%, -50%);
 }
 
-.textmodel {
-    font-size: 3rem;
-    color: rgba(255,255,0,255);
-    position: absolute;
-    width: 45%;
-    top: 82%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
+.button {
+    color: black;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1.0rem;
+    background-color: white;
+    border: 1px white;
+    border-width: 1px;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    position: fixed;
+    top: 2%;
+    right: 8%;
 }
+
+.button.to-second {
+    right: calc(8% - 4em)
+}
+
+.button.to-third {
+    right: calc(8% - 8em);
+}
+
 
 /* First Pair  */
 
@@ -49,6 +64,7 @@ body div img {
     text-align: center;
     transform: translate(-50%, -50%);
 }
+
 /* First Pair  */
 
 .second-pair {
