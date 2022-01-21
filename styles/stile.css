@@ -29,7 +29,6 @@ ul > li {
     background-color: white;
     
     font-family: 'Rubik Mono One', sans-serif;
-    line-height: 1rem;
     font-size: 1.0rem;
     
     
@@ -39,7 +38,7 @@ ul > li {
     
     position: fixed;
     top: 2%;
-    right: 8%;
+    right: 14%;
     z-index: 3;
 }
 
@@ -49,8 +48,8 @@ li > a {
     text-decoration: none;
     
     color: black;
-    width: 50px;
-    line-height: 3rem;
+    width: 4rem;
+    line-height: 4rem;
 }
 
 li:active {
@@ -63,11 +62,11 @@ li:hover {
 
 
 .to-second {
-    right: calc(8% - 4em)
+    right: calc(14% - 6em)
 }
 
 .to-third {
-    right: calc(8% - 8em);
+    right: calc(14% - 12em);
 }
 
 /* Immagini grandezza */
